@@ -1,4 +1,4 @@
-package Aplication;
+package Aplicacao;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -9,7 +9,7 @@ import Entidades.Cliente;
 import Entidades.ItemPedido;
 import Entidades.Pedido;
 import Entidades.Produto;
-import Enumeração.StatusPedido;
+import EnumeraÃ§Ã£o.StatusPedido;
 
 public class Programa {
 
@@ -38,11 +38,11 @@ public class Programa {
 		
 		for(int i=0;i<n;i++) {
 			
-			System.out.println("Dados do "+ (i+1) + "º item:");
+			System.out.println("Dados do "+ (i+1) + "Âº item:");
 			System.out.print("Nome produto: ");
 			sc.nextLine();
 			String nomeProduto = sc.nextLine();
-			System.out.print("Preço do produto: ");
+			System.out.print("PreÃ§o do produto: ");
 			double precoProduto = sc.nextDouble();
 			
 			Produto produto = new Produto(nomeProduto, precoProduto);
