@@ -49,14 +49,12 @@ public class Pedido {
 		this.cliente = cliente;
 	}
 
-	public List<ItemPedido> getItem() {
-		return item;
-	}
+	
 	public void addItem(ItemPedido item) {
-		this.getItem().add(item);
+		this.item.add(item);
 	}
 	public void removeItem(ItemPedido item) {
-		this.getItem().remove(item);
+		this.item.remove(item);
 	}
 	
 	public double total() {
